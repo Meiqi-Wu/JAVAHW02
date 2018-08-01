@@ -1,4 +1,4 @@
-package P8;
+package p08;
 
 import java.awt.Color;
 import java.awt.Graphics;
