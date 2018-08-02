@@ -39,7 +39,7 @@ public class Pyramid extends JFrame{
 				double y = startY;
 				GRect rect = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
 				rect.setSize(this.getWidth(), this.getHeight());
-				this.add(rect);
+				this.add(rect); // REVIEW NOTE: you'd better use this.getContentPane().add(rect) instead of this.add(rect)
 				startX2 += BRICK_WIDTH;
 			}
 			startX += BRICK_WIDTH/2;

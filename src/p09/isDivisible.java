@@ -36,7 +36,7 @@ public class isDivisible {
 		
 		println("\n\nRunning manual tests...");
 		while(true) {
-			runManualTest();
+			runManualTest(); // REVIEW NOTES: think about that the input value is not number, and how to exit
 		}
 		
 
